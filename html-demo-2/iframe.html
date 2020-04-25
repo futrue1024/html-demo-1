@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: red;
+        width: 500px;
+        height: 500px;
+        border: black;
+      }
+    </style>
+  </head>
+  <body>
+    将这个页面通过iframe内嵌到其他窗口
+    <a href="//chenxblog.com" target="_self">百度首页</a>
+    <hr />
+    <a href="//chenxblog.com" target="xxx">百度首页</a>
+    <hr />
+    <a href="//chenxblog.com" target="yyy">百度首页</a>
+    <hr />
+    <div>
+      <iframe src="iframe2.html" frameborder="0"></iframe>
+      <iframe src="" name="xxx"></iframe>
+      <iframe src="" name="yyy"></iframe>
+    </div>
+  </body>
+</html>
